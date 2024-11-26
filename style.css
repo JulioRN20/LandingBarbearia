@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'decaydenceregular';
+    src: url('decaydence-webfont.woff2') format('woff2'),
+         url('decaydence-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "decaydenceregular", sans-serif;
+}
+section{
+    height: 100vh;
+    background: url(https://cdn.pixabay.com/photo/2021/11/15/12/47/haircut-6798047_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.logo img{
+    width: 300px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+ul{
+    background-color: #0000006c;
+    height: 50px;
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0%;
+    top: 7%;
+    list-style-type: none;
+}
+li{
+    margin: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    transition: all 0.5s; 
+}
+a:hover{
+
+    color: gold;
+}
+.landing h1{
+    font-size: 110px;
+    color: white;
+}
+.landing h2{
+    font-size: 60px;
+    margin-left: 2%;
+    color: gold;
+}
+.desconto{
+    display: flex;
+    margin: 0;
+}
+#bgcolor{
+    background-color: rgba(255, 217, 0, 0.616);
+    color: rgb(0, 0, 0);
+}
+.landing p{
+    font-size: 30px;
+    margin-left: 17%;
+    color: white;
+}
+.cta-button{
+    background-color: #0000ffa2;
+    padding: 20px;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    right: 5%;
+    border-radius: 10px;
+    border: solid black;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
+    transition: scale 0.3s;
+}
+.cta-button:hover{
+    scale: 1.2;
+}
